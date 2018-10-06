@@ -1,0 +1,31 @@
+{
+  "name": "sp-listwebpart",
+  "version": "1.0.0",
+  "description": "This demo will give a step-by-step tutorial of creating a client-side list webpart.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjandatta/sp-listwebpart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunjandatta/sp-listwebpart/issues"
+  },
+  "homepage": "https://github.com/gunjandatta/sp-listwebpart#readme",
+  "dependencies": {
+    "gd-sprest-bs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "ts-loader": "^5.2.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
