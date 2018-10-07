@@ -56,7 +56,7 @@ export const Configuration = {
         });
     },
 
-    WebPartCfg: Helper.SPConfig({
+    WebPart: Helper.SPConfig({
         WebPartCfg: [
             {
                 FileName: "demo-list.webpart",
