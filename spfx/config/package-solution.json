@@ -2,7 +2,7 @@
   "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "spfx-listwebpart-client-side-solution",
-    "id": "f9219008-07c7-4e21-83b3-11211f820484",
+    "id": "476c7ba9-c871-451d-a78b-b5d9db89ae5b",
     "version": "1.0.0.0",
     "includeClientSideAssets": true
   },

@@ -1,6 +1,6 @@
 {
   "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "aae14824-adb1-4303-8f22-7d1a7f0ebff4",
+  "id": "c91b4ecd-4199-4b5e-8c16-f5e013286cd7",
   "alias": "ListWebPartWebPart",
   "componentType": "WebPart",
 
