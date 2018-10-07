@@ -21,6 +21,7 @@ export const WebPart = () => {
                 "<tr>",
                 "<th></th>",
                 "<th>Title</th>",
+                "<th>Description</th>",
                 "</tr>"
             ].join('\n');
             table.appendChild(header);
@@ -37,7 +38,8 @@ export const WebPart = () => {
                 let row = document.createElement("tr");
                 row.innerHTML = [
                     '<td></td>',
-                    '<td>' + item.Title + '</td>'
+                    '<td>' + item.Title + '</td>',
+                    '<td>' + item["Description"] + '</td>'
                 ].join('\n');
                 body.appendChild(row);
 
@@ -46,22 +48,32 @@ export const WebPart = () => {
                     data: item,
                     el: row.children[0],
                     isSmall: true,
-                    text: "View",
+                    text: "Edit",
                     type: Components.ButtonTypes.Secondary,
                     onClick: (btn) => {
                         let item = btn.data as Types.SP.IListItemResult;
 
+                        // Get the form element
+                        let elForm = document.querySelector("#dlg-listform");
+                        if (elForm == null) {
+                            // Create the element
+                            elForm = document.createElement("div");
+                            elForm.id = "dlg-listform";
+                            document.body.appendChild(elForm);
+                        }
+
                         // Render a list form
-                        let form = Components.ListFormDialog({
-                            el: document.body,
+                        Components.ListFormDialog({
+                            el: elForm,
                             controlMode: SPTypes.ControlMode.Edit,
                             itemId: item.Id,
                             listName: wpInfo.cfg.ListName,
                             webUrl: wpInfo.cfg.WebUrl,
+                            visible: true,
                             modalProps: {
                                 onClose: () => {
                                     // Remove the form element
-                                    document.body.removeChild(form.el);
+                                    document.body.removeChild(elForm);
                                 }
                             }
                         });

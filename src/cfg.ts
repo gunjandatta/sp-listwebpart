@@ -77,6 +77,7 @@ export const Configuration = {
                 <property name="Content" type="string">
                     &lt;div id="wp-demolist"&gt;&lt;/div&gt;
                     &lt;div id="wp-demolistcfg" style="display: none;"&gt;&lt;/div&gt;
+                    &lt;script type="text/javascript" src="/sites/demo/siteassets/demoListWP.js"&gt;&lt;/script&gt;
                     &lt;script type="text/javascript"&gt;SP.SOD.executeOrDelayUntilScriptLoaded(function() { new WPList(); }, 'demoListWP');&lt;/script&gt;
                 </property>
             </properties>
