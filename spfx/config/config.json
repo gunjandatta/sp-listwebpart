@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "list-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listWebPart/ListWebPartWebPart.js",
+          "manifest": "./src/webparts/listWebPart/ListWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "gd-sprest": {
+      "path": "node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
+      "globalName": "$REST"
+    },
+    "gd-sprest-bs": {
+      "path": "node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
+      "globalName": "$REST"
+    }
+  },
+  "localizedResources": {
+    "ListWebPartWebPartStrings": "lib/webparts/listWebPart/loc/{locale}.js"
+  }
+}
