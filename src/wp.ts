@@ -35,7 +35,7 @@ export const WebPart = () => {
             let row = document.createElement("tr");
             row.innerHTML = [
                 '<td></td>',
-                '<td>' + item.Title + '</td>',
+                '<td>' + item["Title"] + '</td>',
                 '<td>' + item["Description"] + '</td>'
             ].join('\n');
             body.appendChild(row);
