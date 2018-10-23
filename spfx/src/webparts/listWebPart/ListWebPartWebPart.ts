@@ -79,7 +79,7 @@ export default class ListWebPartWebPart extends BaseClientSideWebPart<IListWebPa
       let row = document.createElement("tr");
       row.innerHTML = [
         '<td></td>',
-        '<td>' + item.Title + '</td>',
+        '<td>' + item["Title"] + '</td>',
         '<td>' + item["Description"] + '</td>'
       ].join('\n');
       body.appendChild(row);
