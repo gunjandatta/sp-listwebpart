@@ -1,4 +1,4 @@
-import { SPTypes, Types } from "gd-sprest";
+import { SP, SPTypes } from "gd-sprest";
 import { Components, WebParts } from "gd-sprest-bs";
 
 /**
@@ -6,7 +6,7 @@ import { Components, WebParts } from "gd-sprest-bs";
  */
 export const WebPart = () => {
     // Method to render the table
-    let renderTable = (el: HTMLElement, listName: string, items: Array<Types.SP.IListItemQueryResult>) => {
+    let renderTable = (el: HTMLElement, listName: string, items: Array<SP.IListItemQueryResult>) => {
         // Render the table
         Components.Table({
             el,
@@ -15,7 +15,7 @@ export const WebPart = () => {
                 {
                     name: "Actions",
                     isHidden: true,
-                    onRenderCell: (el, col, item: Types.SP.IListItemQueryResult) => {
+                    onRenderCell: (el, col, item: SP.IListItemQueryResult) => {
                         // Render an edit button
                         Components.Button({
                             el,
