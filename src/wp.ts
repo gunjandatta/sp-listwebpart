@@ -6,7 +6,7 @@ import { Components, WebParts } from "gd-sprest-bs";
  */
 export const WebPart = () => {
     // Method to render the table
-    let renderTable = (el: HTMLElement, listName: string, items: Array<SP.IListItemQueryResult>) => {
+    let renderTable = (el: HTMLElement, listName: string, items: Array<SP.IListItemQuery>) => {
         // Render the table
         Components.Table({
             el,
@@ -15,7 +15,7 @@ export const WebPart = () => {
                 {
                     name: "Actions",
                     isHidden: true,
-                    onRenderCell: (el, col, item: SP.IListItemQueryResult) => {
+                    onRenderCell: (el, col, item: SP.IListItemQuery) => {
                         // Render an edit button
                         Components.Button({
                             el,
