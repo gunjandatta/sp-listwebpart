@@ -1,5 +1,5 @@
 dependencies:
-  gd-sprest-bs: 1.6.7
+  gd-sprest-bs: 1.6.8
 devDependencies:
   '@babel/core': 7.2.2
   '@babel/preset-env': 7.2.3
@@ -993,11 +993,11 @@ packages:
     dev: true
     resolution:
       integrity: sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==
-  /binary-extensions/1.12.0:
+  /binary-extensions/1.13.0:
     engines:
       node: '>=0.10.0'
     resolution:
-      integrity: sha512-DYWGk01lDcxeS/K9IHPGWfT8PsJmbXRtRd2Sx72Tnb8pcYZQFF1oSDb8hJtS1vhp212q1Rzi5dUf9+nq0o9UIg==
+      integrity: sha512-EgmjVLMn22z7eGGv3kcnHwSnJXmFHjISTY9E/S5lIcTD3Oxw05QTcBLNkJFzcb3cNueUdF/IN4U+d78V0zO8Hw==
   /bluebird/3.5.3:
     dev: true
     resolution:
@@ -1892,24 +1892,24 @@ packages:
     dev: false
     resolution:
       integrity: sha512-UktPtGokS634ya+sHhtsrjql6/EOvN43X9pdk4iMK5pYSduD3wvcsxOhOPpZ/Ga7DCtazJmEbQLw5snUvzFT3A==
-  /gd-sprest-bs/1.6.7:
+  /gd-sprest-bs/1.6.8:
     dependencies:
       gd-bs: 1.2.1
-      gd-sprest: 4.5.8
+      gd-sprest: 4.5.9
     dev: false
     resolution:
-      integrity: sha512-Sd2mECYXcwOebDFzd9yYj7GKvKPsp+yvwIA1FVsUo00NFLC313Y+mFQqugZXAKlwKjXovJXDeY1fIZkYZ4I8Tg==
-  /gd-sprest-def/0.4.4:
+      integrity: sha512-dm2lyc5vZkcdQWibGEMYyrDvUEe/aiSHn67tosDlg0avL9+3I0ZrjPzyg9RL3146PlUMV2JKvH6Ygik+GQMGYA==
+  /gd-sprest-def/0.4.5:
     dev: false
     resolution:
-      integrity: sha512-Gq8M1rce2u8qKDMS9qy1I/lihZJ9mh4nxfHZ884S938H/ZqKAe8HxAuVt1TP4svs+IAKOXtulYgmZ60IOoD1KA==
-  /gd-sprest/4.5.8:
+      integrity: sha512-OomUQmghHPeKGmkG4DPnfTvsNA8JzdC5EQcYhE/88cymGRSAOAo9tHZfhbznGumD5eeI7hSTqiT7dYLDR58NBA==
+  /gd-sprest/4.5.9:
     dependencies:
       core-js: 2.6.3
-      gd-sprest-def: 0.4.4
+      gd-sprest-def: 0.4.5
     dev: false
     resolution:
-      integrity: sha512-AQEpxdzvI7kupVwP/2dJ15sALhUkcCpzC7QxehZTl2g6keQgO9Nexri89kAHxpfe+b6ATbHcA09kwk0tSb0E1w==
+      integrity: sha512-FjAwVdsEytI57Sbaf7lNA2qOiGuGOiRGDAJjlP7m1KuZ10Jn2atUZ9rIQMlm9vVvDT1t+OCugUVB7lIk7XxZgQ==
   /get-caller-file/1.0.3:
     dev: true
     resolution:
@@ -2198,7 +2198,7 @@ packages:
       integrity: sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==
   /is-binary-path/1.0.1:
     dependencies:
-      binary-extensions: 1.12.0
+      binary-extensions: 1.13.0
     engines:
       node: '>=0.10.0'
     resolution:
@@ -4151,7 +4151,7 @@ specifiers:
   '@babel/core': ^7.2.2
   '@babel/preset-env': ^7.2.3
   babel-loader: ^8.0.5
-  gd-sprest-bs: ^1.6.7
+  gd-sprest-bs: ^1.6.8
   ts-loader: ^5.3.3
   webpack: ^4.29.0
   webpack-cli: ^3.2.1
