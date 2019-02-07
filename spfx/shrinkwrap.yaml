@@ -4,7 +4,7 @@ dependencies:
   '@microsoft/sp-office-ui-fabric-core': 1.4.1
   '@microsoft/sp-webpart-base': 1.4.1
   '@types/webpack-env': 1.13.6
-  gd-sprest-bs: 1.6.8
+  gd-sprest-bs: 1.7.2
 devDependencies:
   '@microsoft/sp-build-web': 1.4.1
   '@microsoft/sp-module-interfaces': 1.4.1
@@ -1023,7 +1023,7 @@ packages:
       integrity: sha1-/YJw9x+7SZawBPqIDuXUZXOnMb8=
   /acorn-globals/4.3.0:
     dependencies:
-      acorn: 6.0.6
+      acorn: 6.0.7
       acorn-walk: 6.1.1
     dev: false
     resolution:
@@ -1047,13 +1047,13 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
-  /acorn/6.0.6:
+  /acorn/6.0.7:
     dev: false
     engines:
       node: '>=0.4.0'
     hasBin: true
     resolution:
-      integrity: sha512-5M3G/A4uBSMIlfJ+h9W125vJvPFH/zirISsW5qfxF5YzEvXJCtolLoQvM5yZft0DvMcUrPGKPOlgEu55I6iUtA==
+      integrity: sha512-HNJNgE60C9eOTgn974Tlp3dpLZdUr+SoxxDwPaY9J/kDNOLQTkaDgwBUXAF4SSsrAwD9RpdxuHK/EbuF+W9Ahw==
   /adal-angular/1.0.16:
     engines:
       node: '>=0.8.0'
@@ -2617,8 +2617,13 @@ packages:
     resolution:
       integrity: sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
   /core-js/2.6.3:
+    dev: true
     resolution:
       integrity: sha512-l00tmFFZOBHtYhN4Cz7k32VM7vTn3rE2ANjQDxdEN6zmXZ/xq1jQuutnmHvMG1ZJ7xd72+TA5YpUK8wz3rWsfQ==
+  /core-js/2.6.4:
+    dev: false
+    resolution:
+      integrity: sha512-05qQ5hXShcqGkPZpXEFLIpxayZscVD2kuMBZewxiIPPEagukO4mqgPA9CWhUvFBJfy3ODdK2p9xyHh7FTU9/7A==
   /core-util-is/1.0.2:
     resolution:
       integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
@@ -2826,8 +2831,13 @@ packages:
     resolution:
       integrity: sha1-3dUsWHAz9J6Utx/FVWnyUuj/X4U=
   /cssom/0.3.4:
+    dev: true
     resolution:
       integrity: sha512-+7prCSORpXNeR4/fUP3rL+TzqtiFfhMvTd7uEqMdgPvLPt4+uzFUeufx5RHjGTACCargg/DiEt/moMQmvnfkog==
+  /cssom/0.3.6:
+    dev: false
+    resolution:
+      integrity: sha512-DtUeseGk9/GBW0hl0vVPpU22iHL6YB5BUX7ml1hB+GMpo0NX5G4voX3kdWiMSEguFtcW3Vh3djqNF4aIe6ne0A==
   /cssstyle/0.2.37:
     dependencies:
       cssom: 0.3.4
@@ -2836,7 +2846,7 @@ packages:
       integrity: sha1-VBCXI0yyUTyDzu06zdwn/yeYfVQ=
   /cssstyle/0.3.1:
     dependencies:
-      cssom: 0.3.4
+      cssom: 0.3.6
     dev: false
     resolution:
       integrity: sha512-tNvaxM5blOnxanyxI6panOsnfiyLRj3HV4qjqqS45WPNS1usdYWRUQjqTEEELK73lpeP/1KoIGYUwrBn/VcECA==
@@ -4178,30 +4188,30 @@ packages:
       node: '>= 4.0.0'
     resolution:
       integrity: sha512-BRdNm8hbWzFzWHERTrejLqwHDfS4GibPoq5wjTPIoJHoBtKGPg3xAFfxmM+9ztbXelxcf2hwQcaz1PtmFeue8g==
-  /gd-bs/1.2.1:
+  /gd-bs/1.2.2:
     dependencies:
       '@stencil/core': 0.16.4
     dev: false
     resolution:
-      integrity: sha512-UktPtGokS634ya+sHhtsrjql6/EOvN43X9pdk4iMK5pYSduD3wvcsxOhOPpZ/Ga7DCtazJmEbQLw5snUvzFT3A==
-  /gd-sprest-bs/1.6.8:
+      integrity: sha512-fmqFkcZGaZGBbSBCdwUXOrSApSFT5Lr0Lq0FUoMWuDsYMp+wG6FWfe4EXaWyXTKbZmJQ1fDQMN4dY+D3NGc1Yg==
+  /gd-sprest-bs/1.7.2:
     dependencies:
-      gd-bs: 1.2.1
-      gd-sprest: 4.5.9
+      gd-bs: 1.2.2
+      gd-sprest: 4.6.4
     dev: false
     resolution:
-      integrity: sha512-dm2lyc5vZkcdQWibGEMYyrDvUEe/aiSHn67tosDlg0avL9+3I0ZrjPzyg9RL3146PlUMV2JKvH6Ygik+GQMGYA==
-  /gd-sprest-def/0.4.5:
+      integrity: sha512-6pT7ZnViWk4EwjclmMe66+j4JA+tq2C5epa8mI0pwp5y8XAXcqq0Q/piE3+oXzTDsF+6CEQAVgCDMfFTCht+kw==
+  /gd-sprest-def/0.5.9:
     dev: false
     resolution:
-      integrity: sha512-OomUQmghHPeKGmkG4DPnfTvsNA8JzdC5EQcYhE/88cymGRSAOAo9tHZfhbznGumD5eeI7hSTqiT7dYLDR58NBA==
-  /gd-sprest/4.5.9:
+      integrity: sha512-pRYxiaCl9khIF9co8bTeEgw7ZuPMYXbw7ByBDGokuwTX9bjk7C/SN0ug3kld25IwLWUBRySIbobaYMzLB6IcLA==
+  /gd-sprest/4.6.4:
     dependencies:
-      core-js: 2.6.3
-      gd-sprest-def: 0.4.5
+      core-js: 2.6.4
+      gd-sprest-def: 0.5.9
     dev: false
     resolution:
-      integrity: sha512-FjAwVdsEytI57Sbaf7lNA2qOiGuGOiRGDAJjlP7m1KuZ10Jn2atUZ9rIQMlm9vVvDT1t+OCugUVB7lIk7XxZgQ==
+      integrity: sha512-mHHESKtvqzQpf73HdKnpc/zT9bmXG5bzI7OsnidJG93BkAYCAStDI0GXVTxKaM3l4qSnOT2fE/zjHUrs7+m7Ww==
   /generate-function/2.3.1:
     dependencies:
       is-property: 1.0.2
@@ -5189,12 +5199,12 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-EEqOSqym09jNFXqO+L+rLXo//bY=
-  /ip-regex/3.0.0:
+  /ip-regex/2.1.0:
     dev: false
     engines:
-      node: '>=8'
+      node: '>=4'
     resolution:
-      integrity: sha512-T8wDtjy+Qf2TAPDQmBp0eGKJ8GavlWlUnamr3wRn6vvdZlKVuJXXMlSncYFRYgVHOM3If5NR1H4+OvVQU9Idvg==
+      integrity: sha1-+ni/XS5pE8kRzp+BnuUUa7bYROk=
   /ipaddr.js/1.4.0:
     dev: true
     engines:
@@ -5934,14 +5944,14 @@ packages:
       acorn: 5.7.3
       acorn-globals: 4.3.0
       array-equal: 1.0.0
-      cssom: 0.3.4
+      cssom: 0.3.6
       cssstyle: 0.3.1
       data-urls: 1.1.0
       domexception: 1.0.1
       escodegen: 1.11.0
       html-encoding-sniffer: 1.0.2
       left-pad: 1.3.0
-      nwsapi: 2.0.9
+      nwsapi: 2.1.0
       parse5: 4.0.0
       pn: 1.1.0
       request: 2.88.0
@@ -7393,10 +7403,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-3iuY4N5dhgMpCUrOVnuAdGrgxVqV2cJpM+XNccjR2DKOB1RUP0aA+wGXEiNziG/UKboFyGBIoKOaNlJxx8bciQ==
-  /nwsapi/2.0.9:
+  /nwsapi/2.1.0:
     dev: false
     resolution:
-      integrity: sha512-nlWFSCTYQcHk/6A9FFnfhKc14c3aFhfdNBXgo8Qgi9QTBu/qg3Ww+Uiz9wMzXd1T8GFxPc2QIHB6Qtf2XFryFQ==
+      integrity: sha512-ZG3bLAvdHmhIjaQ/Db1qvBxsGvFMLIRpQszyqbg31VJ53UP++uZX1/gf3Ut96pdwN9AuDwlMqIYLm0UPCdUeHg==
   /oauth-sign/0.8.2:
     dev: true
     resolution:
@@ -8805,7 +8815,7 @@ packages:
       request: 2.88.0
       request-promise-core: /request-promise-core/1.1.1/request@2.88.0
       stealthy-require: 1.1.1
-      tough-cookie: 3.0.0
+      tough-cookie: 3.0.1
     dev: false
     engines:
       node: '>=0.12.0'
@@ -10097,16 +10107,16 @@ packages:
       node: '>=0.8'
     resolution:
       integrity: sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==
-  /tough-cookie/3.0.0:
+  /tough-cookie/3.0.1:
     dependencies:
-      ip-regex: 3.0.0
+      ip-regex: 2.1.0
       psl: 1.1.31
       punycode: 2.1.1
     dev: false
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-LHMvg+RBP/mAVNqVbOX8t+iJ+tqhBA/t49DuI7+IDAWHrASnesqSu1vWbKB7UrE2yk+HMFUBMadRGMkB4VCfog==
+      integrity: sha512-yQyJ0u4pZsv9D4clxO69OEjLWYw+jbgspjTue4lTQZLfV0c5l1VmK2y1JK8E9ahdpltPOaAThPcp5nKPUgSnsg==
   /tr46/0.0.3:
     resolution:
       integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
@@ -11183,5 +11193,5 @@ specifiers:
   '@types/mocha': '>=2.2.33 <2.6.0'
   '@types/webpack-env': '>=1.12.1 <1.14.0'
   ajv: ~5.2.2
-  gd-sprest-bs: ^1.6.8
+  gd-sprest-bs: ^1.7.2
   gulp: ~3.9.1

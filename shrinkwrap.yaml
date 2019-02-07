@@ -1,5 +1,5 @@
 dependencies:
-  gd-sprest-bs: 1.7.0
+  gd-sprest-bs: 1.7.2
 devDependencies:
   '@babel/core': 7.2.2
   '@babel/preset-env': 7.2.3
@@ -770,7 +770,7 @@ packages:
       integrity: sha512-d3OEjQV4ROpoflsnUA8HozoIR504TFxNivYEUi6uwz0IYhBkTDXGuWlNdMtybRt3nqVx/L6XqMt0FxkXuWKZhw==
   /acorn-globals/4.3.0:
     dependencies:
-      acorn: 6.0.6
+      acorn: 6.0.7
       acorn-walk: 6.1.1
     dev: false
     resolution:
@@ -795,13 +795,13 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-i33Zgp3XWtmZBMNvCr4azvOFeWVw1Rk6p3hfi3LUDvIFraOMywb1kAtrbi+med14m4Xfpqm3zRZMT+c0FNE7kg==
-  /acorn/6.0.6:
+  /acorn/6.0.7:
     dev: false
     engines:
       node: '>=0.4.0'
     hasBin: true
     resolution:
-      integrity: sha512-5M3G/A4uBSMIlfJ+h9W125vJvPFH/zirISsW5qfxF5YzEvXJCtolLoQvM5yZft0DvMcUrPGKPOlgEu55I6iUtA==
+      integrity: sha512-HNJNgE60C9eOTgn974Tlp3dpLZdUr+SoxxDwPaY9J/kDNOLQTkaDgwBUXAF4SSsrAwD9RpdxuHK/EbuF+W9Ahw==
   /ajv-errors/1.0.1/ajv@6.7.0:
     dependencies:
       ajv: 6.7.0
@@ -1341,10 +1341,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
-  /core-js/2.6.3:
+  /core-js/2.6.4:
     dev: false
     resolution:
-      integrity: sha512-l00tmFFZOBHtYhN4Cz7k32VM7vTn3rE2ANjQDxdEN6zmXZ/xq1jQuutnmHvMG1ZJ7xd72+TA5YpUK8wz3rWsfQ==
+      integrity: sha512-05qQ5hXShcqGkPZpXEFLIpxayZscVD2kuMBZewxiIPPEagukO4mqgPA9CWhUvFBJfy3ODdK2p9xyHh7FTU9/7A==
   /core-util-is/1.0.2:
     resolution:
       integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
@@ -1404,13 +1404,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-fz4spIh+znjO2VjL+IdhEpRJ3YN6sMzITSBijk6FK2UvTqruSQW+/cCZTSNsMiZNvUeq0CqurF+dAbyiGOY6Wg==
-  /cssom/0.3.4:
+  /cssom/0.3.6:
     dev: false
     resolution:
-      integrity: sha512-+7prCSORpXNeR4/fUP3rL+TzqtiFfhMvTd7uEqMdgPvLPt4+uzFUeufx5RHjGTACCargg/DiEt/moMQmvnfkog==
+      integrity: sha512-DtUeseGk9/GBW0hl0vVPpU22iHL6YB5BUX7ml1hB+GMpo0NX5G4voX3kdWiMSEguFtcW3Vh3djqNF4aIe6ne0A==
   /cssstyle/0.3.1:
     dependencies:
-      cssom: 0.3.4
+      cssom: 0.3.6
     dev: false
     resolution:
       integrity: sha512-tNvaxM5blOnxanyxI6panOsnfiyLRj3HV4qjqqS45WPNS1usdYWRUQjqTEEELK73lpeP/1KoIGYUwrBn/VcECA==
@@ -1886,30 +1886,30 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gd-bs/1.2.1:
+  /gd-bs/1.2.2:
     dependencies:
       '@stencil/core': 0.16.4
     dev: false
     resolution:
-      integrity: sha512-UktPtGokS634ya+sHhtsrjql6/EOvN43X9pdk4iMK5pYSduD3wvcsxOhOPpZ/Ga7DCtazJmEbQLw5snUvzFT3A==
-  /gd-sprest-bs/1.7.0:
+      integrity: sha512-fmqFkcZGaZGBbSBCdwUXOrSApSFT5Lr0Lq0FUoMWuDsYMp+wG6FWfe4EXaWyXTKbZmJQ1fDQMN4dY+D3NGc1Yg==
+  /gd-sprest-bs/1.7.2:
     dependencies:
-      gd-bs: 1.2.1
-      gd-sprest: 4.6.1
+      gd-bs: 1.2.2
+      gd-sprest: 4.6.4
     dev: false
     resolution:
-      integrity: sha512-ZRDkXmbqY6KRMl7yvXtaAauuEQJfMy+q7FzhARZAL3p1BBlZkXpEAlIR5txw5q1i8G08vzJBcigc/sN82J7xjw==
-  /gd-sprest-def/0.4.5:
+      integrity: sha512-6pT7ZnViWk4EwjclmMe66+j4JA+tq2C5epa8mI0pwp5y8XAXcqq0Q/piE3+oXzTDsF+6CEQAVgCDMfFTCht+kw==
+  /gd-sprest-def/0.5.9:
     dev: false
     resolution:
-      integrity: sha512-OomUQmghHPeKGmkG4DPnfTvsNA8JzdC5EQcYhE/88cymGRSAOAo9tHZfhbznGumD5eeI7hSTqiT7dYLDR58NBA==
-  /gd-sprest/4.6.1:
+      integrity: sha512-pRYxiaCl9khIF9co8bTeEgw7ZuPMYXbw7ByBDGokuwTX9bjk7C/SN0ug3kld25IwLWUBRySIbobaYMzLB6IcLA==
+  /gd-sprest/4.6.4:
     dependencies:
-      core-js: 2.6.3
-      gd-sprest-def: 0.4.5
+      core-js: 2.6.4
+      gd-sprest-def: 0.5.9
     dev: false
     resolution:
-      integrity: sha512-d7odBC+RaUP0TBeMTfItlFXFTFCcoqWhmUUMatcQ9X3j0zWLG+h+RdpfNJ1a8GhQrOqYpYPrqqbujgjRSF7VvQ==
+      integrity: sha512-mHHESKtvqzQpf73HdKnpc/zT9bmXG5bzI7OsnidJG93BkAYCAStDI0GXVTxKaM3l4qSnOT2fE/zjHUrs7+m7Ww==
   /get-caller-file/1.0.3:
     dev: true
     resolution:
@@ -2176,12 +2176,12 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
-  /ip-regex/3.0.0:
+  /ip-regex/2.1.0:
     dev: false
     engines:
-      node: '>=8'
+      node: '>=4'
     resolution:
-      integrity: sha512-T8wDtjy+Qf2TAPDQmBp0eGKJ8GavlWlUnamr3wRn6vvdZlKVuJXXMlSncYFRYgVHOM3If5NR1H4+OvVQU9Idvg==
+      integrity: sha1-+ni/XS5pE8kRzp+BnuUUa7bYROk=
   /is-accessor-descriptor/0.1.6:
     dependencies:
       kind-of: 3.2.2
@@ -2383,14 +2383,14 @@ packages:
       acorn: 5.7.3
       acorn-globals: 4.3.0
       array-equal: 1.0.0
-      cssom: 0.3.4
+      cssom: 0.3.6
       cssstyle: 0.3.1
       data-urls: 1.1.0
       domexception: 1.0.1
       escodegen: 1.11.0
       html-encoding-sniffer: 1.0.2
       left-pad: 1.3.0
-      nwsapi: 2.0.9
+      nwsapi: 2.1.0
       parse5: 4.0.0
       pn: 1.1.0
       request: 2.88.0
@@ -2817,10 +2817,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
-  /nwsapi/2.0.9:
+  /nwsapi/2.1.0:
     dev: false
     resolution:
-      integrity: sha512-nlWFSCTYQcHk/6A9FFnfhKc14c3aFhfdNBXgo8Qgi9QTBu/qg3Ww+Uiz9wMzXd1T8GFxPc2QIHB6Qtf2XFryFQ==
+      integrity: sha512-ZG3bLAvdHmhIjaQ/Db1qvBxsGvFMLIRpQszyqbg31VJ53UP++uZX1/gf3Ut96pdwN9AuDwlMqIYLm0UPCdUeHg==
   /oauth-sign/0.9.0:
     dev: false
     resolution:
@@ -3250,7 +3250,7 @@ packages:
       request: 2.88.0
       request-promise-core: /request-promise-core/1.1.1/request@2.88.0
       stealthy-require: 1.1.1
-      tough-cookie: 3.0.0
+      tough-cookie: 3.0.1
     dev: false
     engines:
       node: '>=0.12.0'
@@ -3752,16 +3752,16 @@ packages:
       node: '>=0.8'
     resolution:
       integrity: sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==
-  /tough-cookie/3.0.0:
+  /tough-cookie/3.0.1:
     dependencies:
-      ip-regex: 3.0.0
+      ip-regex: 2.1.0
       psl: 1.1.31
       punycode: 2.1.1
     dev: false
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-LHMvg+RBP/mAVNqVbOX8t+iJ+tqhBA/t49DuI7+IDAWHrASnesqSu1vWbKB7UrE2yk+HMFUBMadRGMkB4VCfog==
+      integrity: sha512-yQyJ0u4pZsv9D4clxO69OEjLWYw+jbgspjTue4lTQZLfV0c5l1VmK2y1JK8E9ahdpltPOaAThPcp5nKPUgSnsg==
   /tr46/1.0.1:
     dependencies:
       punycode: 2.1.1
@@ -4151,7 +4151,7 @@ specifiers:
   '@babel/core': ^7.2.2
   '@babel/preset-env': ^7.2.3
   babel-loader: ^8.0.5
-  gd-sprest-bs: ^1.7.0
+  gd-sprest-bs: ^1.7.2
   ts-loader: ^5.3.3
   webpack: ^4.29.0
   webpack-cli: ^3.2.1
