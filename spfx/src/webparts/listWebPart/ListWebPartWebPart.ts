@@ -9,7 +9,7 @@ import { escape } from '@microsoft/sp-lodash-subset';
 import styles from './ListWebPartWebPart.module.scss';
 import * as strings from 'ListWebPartWebPartStrings';
 
-import { ContextInfo, List, SP, SPTypes } from "gd-sprest";
+import { ContextInfo, List, SPTypes, Types } from "gd-sprest";
 import { Components } from "gd-sprest-bs";
 
 export interface IListWebPartWebPartProps {
@@ -50,7 +50,7 @@ export default class ListWebPartWebPart extends BaseClientSideWebPart<IListWebPa
   }
 
   // Method to render the table
-  protected renderTable(el: HTMLElement, listName: string, items: Array<SP.IListItemQuery>) {
+  protected renderTable(el: HTMLElement, listName: string, items: Array<Types.SP.IListItemQuery>) {
     // Render the table
     Components.Table({
       el,
@@ -59,7 +59,7 @@ export default class ListWebPartWebPart extends BaseClientSideWebPart<IListWebPa
         {
           name: "Actions",
           isHidden: true,
-          onRenderCell: (el, col, item: SP.IListItemQuery) => {
+          onRenderCell: (el, col, item: Types.SP.IListItemQuery) => {
             // Render an edit button
             Components.Button({
               el,
