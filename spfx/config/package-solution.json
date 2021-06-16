@@ -1,12 +1,20 @@
 {
-  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "spfx-listwebpart-client-side-solution",
-    "id": "476c7ba9-c871-451d-a78b-b5d9db89ae5b",
+    "name": "sp-listwebpart-client-side-solution",
+    "id": "ff68654a-367e-4e89-b39a-a048458fc4a6",
     "version": "1.0.0.0",
-    "includeClientSideAssets": true
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
   },
   "paths": {
-    "zippedPackage": "solution/spfx-listwebpart.sppkg"
+    "zippedPackage": "solution/sp-listwebpart.sppkg"
   }
 }

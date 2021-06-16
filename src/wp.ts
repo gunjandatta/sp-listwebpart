@@ -1,12 +1,24 @@
-import { SPTypes, Types } from "gd-sprest";
-import { Components, WebParts } from "gd-sprest-bs";
+import { Components, SPTypes, Types, WebParts } from "gd-sprest-bs";
 
 /**
  * WebPart
  */
-export const WebPart = () => {
+export class WebPart {
+    // Constructor
+    constructor(el: HTMLElement) {
+        // Create the webpart
+        WebParts.WPList({
+            elementId: "wp-demolist",
+            cfgElementId: "wp-demolistcfg",
+            onRenderItems: (wpInfo, items) => {
+                // Render the table
+                WebPart.renderTable(wpInfo.el, wpInfo.cfg.ListName, items as any);
+            }
+        });
+    }
+
     // Method to render the table
-    let renderTable = (el: HTMLElement, listName: string, items: Array<Types.SP.IListItemQuery>) => {
+    static renderTable = (el: HTMLElement, listName: string, items: Array<Types.SP.IListItemQuery>) => {
         // Render the table
         Components.Table({
             el,
@@ -59,14 +71,4 @@ export const WebPart = () => {
             ]
         });
     }
-
-    // Create the list webpart
-    WebParts.WPList({
-        elementId: "wp-demolist",
-        cfgElementId: "wp-demolistcfg",
-        onRenderItems: (wpInfo, items) => {
-            // Render the table
-            renderTable(wpInfo.el, wpInfo.cfg.ListName, items as any);
-        }
-    });
 }
